@@ -38,5 +38,9 @@ Code will follow, but essentially, imagine a copy of each of the following inter
  
  Finally, imagine the original interface now extends the Unmod interface to add the modification methods.  So Iterator extends UnmodIterator and adds the `.remove()` method.
 
+## History
+
+This started as a StackOverflow question: [Why doesn't Java 8 include immutable collections?](https://softwareengineering.stackexchange.com/questions/221762/why-doesnt-java-8-include-immutable-collections) then became [Paguro](https://github.com/GlenKPeterson/Paguro) then, when I tried to convert Paguro to [Kotlin](https://kotlinlang.org/) it became apparent that each project or language that has to invent their own immutable interfaces is creating incompatibilities that really should be fixed in Java.
+
 ## Trademarks
 Oracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective owners.  This project is a proposed change to Java, but it is NOT Java (yet).
